@@ -14,12 +14,10 @@ public:
 		this->height = height;
 		this->width = width;
 	}
-	/*
 	void calculateArea() {
 		double area = height * width;
 		cout << "The area of rectangle: " << area << endl;
 	}
-	*/
 };
 
 int main(){
