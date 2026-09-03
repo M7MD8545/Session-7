@@ -1,0 +1,12 @@
+Compile-time Polymorphism:
+Concept: The compiler determines which function to call at compile time before the program executes.
+How it works: Achieved using Function Overloading (functions with the same name but different parameters) 
+or Operator Overloading.
+Key Advantages: Faster execution because the method resolution happens ahead of time.
+
+Run-time Polymorphism:
+Concept: The program determines which function to call dynamically during execution based on 
+the actual object being pointed to.
+How it works: Achieved using Function Overriding along with virtual functions and base class pointers.
+Key Advantages: Highly flexible and supports dynamic class behavior, though it adds a slight runtime overhead due to 
+virtual table (vtable) lookups.
