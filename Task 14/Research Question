@@ -1,0 +1,9 @@
+Arrays require a fixed amount of memory allocated ahead of time, which can lead to wasted space if not filled or errors if capacity is exceeded. Linked Lists allocate memory dynamically as elements are added,
+making them ideal when the total number of items is unknown in advance. Additionally, modifying elements in an array requires shifting adjacent items in memory, whereas Linked Lists only require updating pointers.
+
+Two Advantages of Linked Lists:
+
+Dynamic Memory Allocation: 
+Linked Lists grow and shrink dynamically at runtime, ensuring memory is used only when necessary.
+Fast Insertions and Deletions: 
+Adding or removing nodes does not require shifting other elements in memory, making these operations much faster once the position is reached.
