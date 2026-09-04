@@ -1,0 +1,11 @@
+Static Allocation:
+Memory Region: Allocated in the Stack memory.
+Time: Handled at compile-time before program execution.
+Flexibility: Fixed size; cannot be changed during runtime.
+Management: Managed automatically by the compiler.
+
+Dynamic Allocation:
+Memory Region: Allocated in the Heap memory.
+Time: Handled at runtime while the program executes.
+Flexibility: Dynamic size; can grow or shrink as needed using new and delete.
+Management: Managed manually by the programmer.
