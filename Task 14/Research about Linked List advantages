@@ -1,0 +1,8 @@
+Dynamic Memory Allocation:
+Unlike arrays which require a fixed size defined ahead of time, linked lists allocate memory dynamically at runtime. This allows the list to grow or shrink as elements are added or removed, preventing wasted memory or size limitations.
+
+Efficient Insertions and Deletions:
+Inserting or deleting elements in an array requires shifting other elements in memory. In contrast, adding or removing nodes in a linked list only involves updating pointers, making operations faster once the location is found.
+
+No Memory Wastage:
+Memory is allocated only when a new element is created, so there is no need to declare a large capacity in advance
